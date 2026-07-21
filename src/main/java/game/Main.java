@@ -36,7 +36,7 @@ public class Main {
     }
 
     // Beginner-friendly Enemy class
-    static class Enemy {
+    public static class Enemy {
         String name;
         int hp, maxHp, attack, defense;
         String asciiArt;
