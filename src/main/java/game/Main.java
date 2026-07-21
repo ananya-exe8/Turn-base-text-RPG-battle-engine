@@ -4,7 +4,7 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class Main {
-    static Random random = new Random();
+    private static final Random random = new Random();
     static Scanner scanner = new Scanner(System.in);
     static class Player {
         String name;
