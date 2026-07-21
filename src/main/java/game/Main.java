@@ -112,7 +112,7 @@ public class Main {
         System.out.println("Welcome, Jedi " + player.name + "! May the Force be with you.");
 
         int wins = 0; // Track number of wins
-        boolean playing = true;
+        boolean playing = true; // Main game loop flag
         boolean bossDefeated = false;
 
         // Main Game Loop
