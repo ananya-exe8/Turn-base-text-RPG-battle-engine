@@ -113,7 +113,7 @@ public class Main {
 
         int wins = 0; // Track number of wins
         boolean playing = true; // Main game loop flag
-        boolean bossDefeated = false;
+        boolean bossDefeated = false; // Final boss status
 
         // Main Game Loop
         while (playing && player.isAlive()) {
