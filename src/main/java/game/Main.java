@@ -111,7 +111,7 @@ public class Main {
         Player player = new Player(heroName);
         System.out.println("Welcome, Jedi " + player.name + "! May the Force be with you.");
 
-        int wins = 0;
+        int wins = 0; // Track number of wins
         boolean playing = true;
         boolean bossDefeated = false;
 
