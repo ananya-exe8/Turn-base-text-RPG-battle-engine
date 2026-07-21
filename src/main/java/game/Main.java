@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Main {
     private static final Random random = new Random();
     private static final Scanner scanner = new Scanner(System.in);
-    static class Player {
+    public static class Player {
         String name;
         int hp, maxHp, attack, defense, level, healUses;
         boolean defending;
